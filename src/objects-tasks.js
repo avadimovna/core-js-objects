@@ -375,8 +375,7 @@ function group(array, keySelector, valueSelector) {
  *  For more examples see unit tests.
  */
 
-const cssSelectorBuilder = (function () {
-  // Определите здесь ваши классы
+const cssSelectorBuilder = (function a() {
   class Selector {
     elementValue = null;
 
